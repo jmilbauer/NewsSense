@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "NewsSense Browser Extension",
+    "description": "Enhancing the news with integrated context.",
+    "version": "1.0",
+    "action": {
+      "default_popup": "newsreader.html",
+      "default_icon": "icon.png"
+    },
+    "permissions": [
+        "*://localhost:*"
+    ],
+    "content_scripts": [
+        {
+          "js": ["scripts/content.js"],
+          "css": ["style.css"],
+          "matches": [
+            "<all_urls>"
+          ]
+        }
+      ],
+    "web_accessible_resources": [{
+        "matches": ["<all_urls>"],
+        "resources": ["images/*"]
+    }]
+  }
