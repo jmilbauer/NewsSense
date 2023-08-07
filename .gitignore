@@ -1,3 +1,6 @@
+sensitive_data.txt
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -5,6 +8,8 @@ __pycache__/
 
 # C extensions
 *.so
+
+.ipynb_checkpoints/
 
 # Distribution / packaging
 .Python
