@@ -1,5 +1,5 @@
 # NewsSense
-Public repo for NewsSense (to appear at EMNLP 2023 in Singapore)
+Public repo for NewsSense.
 
 Demo Video: https://www.youtube.com/watch?v=2D5LYbsQJak
 
